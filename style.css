@@ -1,0 +1,60 @@
+
+
+body
+{	
+      
+	/*background-size: 5000px;*/
+	/*background-position: left;*/
+	background-image:url("dinner.jpeg");
+   background-size:cover;
+   background-blend-mode: lighten;
+ }
+ .header{
+ 	position:fixed;
+ 	top:0px;
+ 	width: 100%;
+	z-index: 1;
+ 	background-position: left;
+	background-image:url("dinner.jpeg");
+     
+ }
+ .rest{
+ 	margin-top: 100px;
+ 	z-index: -1;
+ 	 margin-bottom: 50px;
+     margin-left:20px;
+ }
+ h1
+ {
+ 	text-align: center;
+ 	color: red;
+font-family: arial, sans-serif;
+font-weight: bold;
+margin-top: 1px;
+margin-bottom: 1px;
+ 
+}
+ 
+ h2
+ {
+ 	text-align: center;
+ 	color:blue;
+ }
+ 
+.bot
+{
+
+	height: 40px;
+	width:80px;
+	background-color: lightgreen;
+}
+.bot:hover{
+	cursor:pointer;
+	height: 45px;
+	width:85px;
+	color:white;
+	background-color: green;
+}
+
+
+

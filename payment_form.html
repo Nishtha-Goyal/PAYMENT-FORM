@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PAYMENT FORM</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="" >
+<div class="header">	
+<p><h1 >Payment Form</h1></p>
+<hr>
+</div>
+<div class="rest">
+<h2><b>Contact Info</b></h2>
+
+
+<p><h3>Name:* </h3><input type="text" name="name" required> </p>
+<hr>
+
+<h3>Gender:*</h3>
+<fieldset>
+
+<p id="gender">
+Male <input type="radio" name="gender" id="male" required>
+Female <input type="radio" name="gender" id="female" required>
+</p>
+</fieldset>
+
+
+<h3>Address:</h3>
+<p >  <textarea name="address" id="address" cols="100" rows="5"></textarea></p>
+<hr>
+
+<p><h3>E-mail:* </h3><input type="email> id="email" name="email" required></p>
+<hr>
+<p><h3>Pincode</h3>
+<input type="number" name="pincode"  id="pincode" required>
+</p>
+<hr>
+<p ><h2><b>Payment Info</b></h2></p> 
+<p><h3>Card Type:*</h3>
+<select name="card_type" id="card_type" required>
+<option value="">--Select a Card Type--</option>
+<option value="visa">Visa</option> 
+<option value="rupay">Rupay</option>
+<option value="mastercard">Master Card</option></select>
+
+</p>
+<hr>
+<p><h3> Card Number:* </h3>
+<input type="number" name="card " id="card" required>
+</p>
+<hr>
+<p><h3>Expiration Date:*</h3>
+<input type="date" name="exp" id="exp" required> </p>
+<hr>
+<p>
+	<h3>CVV:*</h3><input type="password"  name="cvv" id="cvv" required>
+</p>
+<hr>
+
+<p> <input class="bot" type="submit" value="Pay Now"></p>
+</div>
+
+</body>
+</html>
